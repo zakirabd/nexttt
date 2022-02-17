@@ -185,7 +185,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url('/css/img/home_background_1.jpeg');
+    background-image: url('img/home_background_1.jpeg');
 }
 .header_background{
     background: rgba(0, 0, 0, 0.3);
@@ -271,7 +271,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url('/css/img/about_background_image.jpeg');
+    background-image: url('img/about_background_image.jpeg');
     
 }
 
@@ -452,7 +452,7 @@ footer{
 }
 .footer_main_container{
     display: block;
-    background-image: url("/images/map.jpeg");
+    background-image: url("../images/map.jpeg");
     min-height: 497px;
     width: 100%;
 }
