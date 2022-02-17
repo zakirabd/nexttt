@@ -195,7 +195,7 @@ header{
     width: 100%;
 }
 nav{
-    display: none;
+    display: flex;
     position: relative;
     justify-content: space-between;
     padding-top: 40px;
@@ -215,11 +215,12 @@ nav{
    
 }
 
-.main-nav li a:link,
-.main-nav li a:active{
-    font: normal normal normal 95%/23px Montserrat;
+.main-nav li a{
+    font-size: 95%;
+    /* font: normal normal normal 95%/23px Montserrat; */
     letter-spacing: 0px;
     color: var(--white);
+    font-weight: normal;
     opacity: 1;
 }
 
