@@ -1,6 +1,7 @@
 :root{
     --white: white;
     --brown: #AF7E5A;
+    --gray: #555555;
 }
 
 *{
@@ -194,6 +195,7 @@ header{
     height: 100vh;
     width: 100%;
 }
+
 nav{
     display: flex;
     position: relative;
@@ -248,7 +250,68 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
+/* ------------------------------------------------------------------------ */
+/* ----------------------------SERVICES PAGE HEADER--------------------- */
+#services_header{
+    background-image: url('img/services_background.jpeg');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header_main_container{
+    width: auto;
+    margin-left: 16.9%;
+    margin-right: 16.9%;
+    margin-top: 15vh;
+}
+.header_title h2{
+    text-align: left;
+    font-stretch: medium;
+    font-weight: normal;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 37px;
+    letter-spacing: 0px;
+    color: var(--white);
+    opacity: 1;
+}
 
+.header_left_input{
+    width: 100%;
+    height: 32px;
+    background: var(--white) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #534A4240;
+    border-radius: 6px;
+    opacity: 0.88;
+    outline: none;
+    text-align: left;
+    font: italic normal 300 70%/13px Montserrat;
+    letter-spacing: 0px;
+    color: var(--gray);
+    border: none;
+    
+    padding-left: 5px;
+}
+
+.header_grid_container{
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(266px, 1fr));
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-gap: 20px;
+    background-color: #000000;
+    width: 63%;
+}
+.input_container_w_266{
+    display: block;
+    position: relative;
+    min-width: 260px;
+    height: 32px;
+    margin-bottom: 18px;
+    background-color: red;
+}
+/* -------------------------------------------------------------------------- */
 /* -------------------------SECTION 1 STYLES ---------------------- */
 /* ----------------------SERVICES SECTIONS ----------------------- */
 #globus_image{
@@ -261,6 +324,7 @@ nav{
     height: 100px;
     margin-top: 45px;
 }
+
 
 /* ------------------------------SECTION 2 STYLES --------------------- */
 /* ---------------------------ABOUT SECTIONS ---------------------- */
