@@ -1,11 +1,21 @@
 @media only screen and (max-width: 1199px){
-    .main-nav{
+    /* .main-nav{
         display: none;
-    }
+    } */
 }
 @media only screen and (max-width: 1023px){
     body{
         font-size: 17px;
+    }
+    nav{
+        margin-left: 0px;
+    }
+    .logo,
+    .main-nav{
+        display: none;
+    }
+    .resp-nav-container{
+        display: block !important;
     }
    .container{
        margin-left: 7%;
@@ -45,5 +55,10 @@
     .grid_container_278
    {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-text_box h1{
+        font-size: 22px;
+        line-height: 30px !important;
     }
  }
