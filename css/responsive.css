@@ -3,6 +3,15 @@
       margin-top: 5vh;
     }
 }
+
+@media only screen and (max-width: 1205px){
+    .news_page_container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+
 @media only screen and (max-width: 1023px){
     body{
         font-size: 17px;
@@ -49,6 +58,16 @@
         margin-top: 10px;
         margin-right: 25px;
     }
+
+
+
+    .news_page_container {
+        display: grid;
+        grid-template-areas: 
+        "right   "
+        "left  ";
+       
+      }
  }
 
 @media only screen and (max-width: 730px){
@@ -92,6 +111,11 @@
         font-size: 22px;
         line-height: 30px !important;
     }
+    .news_page_container {
+       margin-left: 20px;
+       margin-right: 20px;
+       
+      }
  }
 
  @media only screen and (max-width: 505px){
